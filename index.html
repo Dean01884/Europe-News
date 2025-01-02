@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Simple Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Slider Section -->
+    <section class="slider-container">
+        <div class="slider">
+            <div class="slide">
+                <img src="https://via.placeholder.com/1200x400/FF5733/FFFFFF?text=Image+1" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="https://via.placeholder.com/1200x400/33FF57/FFFFFF?text=Image+2" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="https://via.placeholder.com/1200x400/3357FF/FFFFFF?text=Image+3" alt="Image 3">
+            </div>
+        </div>
+        <div class="slider-nav">
+            <button class="prev" onclick="prevSlide()">❮</button>
+            <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+    </section>
+
+    <div class="main-container">
+        <main>
+            <article class="post">
+                <h2>Blog Post Title 1</h2>
+                <p class="post-meta">Posted on January 1, 2025 by Author</p>
+                <p>This is a sample blog post content. You can write your blog content here. Add more paragraphs, images, or videos to make your post richer and more engaging.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <article class="post">
+                <h2>Blog Post Title 2</h2>
+                <p class="post-meta">Posted on January 2, 2025 by Author</p>
+                <p>This is another sample blog post content. You can create many posts like this to fill up your blog and keep readers engaged.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <article class="post">
+                <h2>Blog Post Title 3</h2>
+                <p class="post-meta">Posted on January 3, 2025 by Author</p>
+                <p>This post can have more content and details. Use this template to structure each of your posts for a clean, organized look.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <h3>About Me</h3>
+            <p>This is a sidebar where you can introduce yourself or provide additional information. It's a great place for your profile or latest updates.</p>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Simple Blog</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
